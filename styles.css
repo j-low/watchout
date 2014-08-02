@@ -1,5 +1,21 @@
 /* your beautiful css styling goes here! */
 
-/* Note: an asteroid image is included in this repo. 
+/* Note: an asteroid image is included in this repo.
 Feel free to use it if you like. */
 
+.enemy {
+/*  src: url("/shuriken.png");*/
+
+/*  padding: 1em;
+  color: red;
+  height: 1em;
+  width: 1em;*/
+},
+
+.gameboard {
+
+},
+
+.collision {
+  background-color : red;
+}
