@@ -32,9 +32,8 @@ var game = function(){
         return Math.random()*430;
       })
       .attr('r', 5)
-      .style('fill', 'red')
+      .attr('filter', 'url(#shuri)')
       // .style('fill', 'url(Users/student/Code/Geoffrey_Abdallah/2014-07-watchout/shuriken.png)')
-    enemies.push(i);
   }
 
   //add player to board
@@ -43,6 +42,7 @@ var game = function(){
     .attr('cx', 300)
     .attr('cy', 300)
     .attr('r', 10)
+    .attr('filter', 'url(#bruce)')
     .call(drag);
 
 
