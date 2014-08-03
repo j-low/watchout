@@ -1,21 +1,25 @@
-/* your beautiful css styling goes here! */
+body {
+  background:  'yellow';
+  height: 100%;
+}
 
-/* Note: an asteroid image is included in this repo.
-Feel free to use it if you like. */
+.scoreboard {
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: gold;
+  background: #3D3535;
+  padding: 2em;
+}
 
-.enemy {
-/*  src: url("/shuriken.png");*/
-
-/*  padding: 1em;
-  color: red;
-  height: 1em;
-  width: 1em;*/
-},
 
 .gameboard {
-
-},
-
-.collision {
-  background-color : red;
+  margin-left: 25%;
+  margin-top: 5%;
+  background-image: url(temple.JPG);
+  background-repeat: no-repeat;
 }
+
+image.kareem {
+}
+
